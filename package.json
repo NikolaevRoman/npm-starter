@@ -1,6 +1,6 @@
 {
   "name": "@nikolaevv.roman/npm-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test npm package",
   "keywords": [
     "npm",
@@ -22,7 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
