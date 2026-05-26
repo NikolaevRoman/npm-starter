@@ -1,0 +1,35 @@
+{
+  "name": "@nikolaevv.roman/npm-starter",
+  "version": "1.0.0",
+  "description": "Test npm package",
+  "keywords": [
+    "npm",
+    "test"
+  ],
+  "homepage": "https://github.com/NikolaevRoman/npm-starter#readme",
+  "bugs": {
+    "url": "https://github.com/NikolaevRoman/npm-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaevRoman/npm-starter.git"
+  },
+  "license": "ISC",
+  "author": "Nikolaev Roman",
+  "type": "commonjs",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7"
+  }
+}
