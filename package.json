@@ -16,7 +16,6 @@
   },
   "license": "ISC",
   "author": "Nikolaev Roman",
-  "type": "module",
   "main": "dist/index.js",
   "source": "src/index.jsx",
   "scripts": {
